@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="<?=ROTA_GERAL?>/view/css/style.css">
     <!-- boxins cdn icones -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="<?=ROTA_GERAL?>/view/DataTables/datatables.min.css"/>
+    <script type="text/javascript" src="<?=ROTA_GERAL?>/view/DataTables/datatables.min.js"></script>
     
 </head>
 <body>
@@ -23,69 +27,69 @@
         <i class='bx bx-menu' id="btn"></i>
     </div>
     <ul class="nav_list">
-        <li>
+        <!-- <li>
             <a href="#">
             <i class='bx bx-search' ></i>
-            <input type="search" placeholder="search...">
+            <input type="search" placeholder="busca...">
             
             </a>
-            <span class="tooltip">search</span>
-        </li>
+            <span class="tooltip">busca</span>
+        </li> -->
         <li>
-            <a href="">
+            <a href="<?=ROTA_GERAL?>">
             <i class='bx bx-grid-alt' ></i>
             <span class="link_name">
-                Dashboard
+                Painel Principal
             </span>
             </a>
             <span class="tooltip">Dashboard</span>
         </li>
         <li>
-            <a href="">
-            <i class='bx bx-user' ></i>
+            <a href="<?=ROTA_GERAL?>/Bico/listar">
+            <i class='bx bxs-gas-pump'></i>
             <span class="link_name">
-                User
+                Cadastrar Bicos
             </span>
             </a>
-            <span class="tooltip">User</span>
+            <span class="tooltip">Bicos</span>
         </li>
         <li>
             <a href="">
-            <i class='bx bx-chat' ></i>
+            <i class='bx bxs-user-check'></i>
             <span class="link_name">
-                Messages
+                Funcionarios
             </span>
             </a>
-            <span class="tooltip">Messages</span>
+            <span class="tooltip">Funcionarios</span>
         </li>
         <li>
             <a href="">
             <i class='bx bx-pie-chart-alt-2' ></i>
             <span class="link_name">
-                Analytics
+                Relatorios
             </span>
             </a>
-            <span class="tooltip">Analytics</span>
+            <span class="tooltip">Relatorios</span>
         </li>
         <li>
             <a href="">
-            <i class='bx bx-folder' ></i>
+            <i class='bx bxs-time-five' ></i>
             <span class="link_name">
-                File Manager
+                Horarios
             </span>
             </a>
-            <span class="tooltip">File Manager</span>
+            <span class="tooltip">Horarios</span>
         </li>
         <li>
             <a href="">
             <i class='bx bx-cart-alt' ></i>
             <span class="link_name">
-                Order
+                Compras
             </span>
             </a>
-            <span class="tooltip">Order</span>
+            <span class="tooltip">Compras</span>
         </li>
-        <li>
+        <!-- <li>
             <a href="">
             <i class='bx bx-heart' ></i>
             <span class="link_name">
@@ -93,7 +97,7 @@
             </span>
             </a>
             <span class="tooltip">Saved</span>
-        </li>
+        </li> -->
         <li>
             <a href="">
             <i class='bx bx-cog' ></i>

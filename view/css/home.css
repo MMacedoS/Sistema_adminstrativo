@@ -17,7 +17,8 @@
     box-shadow: 0px 0px 10px 1px #1d1b31;
 }
 .card:hover{
-    width:40% ;
+    width:400px;
+    height:200px;
 }
 .branco{
 background: #fff !important;
@@ -26,13 +27,23 @@ background: #fff !important;
 background: rgb(1, 80, 21) !important;
 }
 .azul{
-    background: rgb(1, 106, 186) !important;
+    background-color: rgb(12 140 237)!important;
 
 }
 .cinza{
  background: rgb(95, 95, 95) !important;
 
 }
+
+.vermelho{
+    background: rgb(123, 6, 6) !important;
+   
+   }
+
+.roxo{
+    background: rgb(65, 3, 165) !important;
+   
+   }
 .card_title {
     height: 50px;
     background: #1d1b31;

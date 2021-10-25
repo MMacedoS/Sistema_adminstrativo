@@ -9,9 +9,14 @@
     btn.onclick=function(){
         sidebar.classList.toggle("active");
     }
-    searchbtn.onclick=function(){
-        sidebar.classList.toggle("active");
-    }
+    // searchbtn.onclick=function(){
+    //     sidebar.classList.toggle("active");
+    // }
 </script>
+
+<script src="<?=ROTA_GERAL?>/view/js/ajax.js"></script>
+<script src="<?=ROTA_GERAL?>/view/js/modal.js"></script>
+
+
 </body>
 </html>

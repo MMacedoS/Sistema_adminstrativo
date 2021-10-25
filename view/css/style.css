@@ -246,7 +246,13 @@ width: 240px;
     color: #1d1b31;
     margin: 12px;
 }
-
+.home_content .text .lista{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1d1b31;
+    margin: 12px;
+}
 .sidebar.active ~ .home_content{
     width: calc(100%-240px);
     left: 240px;

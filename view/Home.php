@@ -1,50 +1,21 @@
 <?php require_once 'topo.php';?>
        <div class="text">
-       Painel Administrativo  
+       Dados iniciais dos Bicos
        </div>
        
         <link rel="stylesheet" href="<?=ROTA_GERAL?>/view/css/home.css">
 
         <div class="cards">
+
+        <?php   foreach($this->bicos as $key=>$value){?>
             <div class="card">
-                <div class="card_title .azul">Bico 1</div>
+                <div class="card_title <?=$value['cor']?>"><i class='bx bxs-gas-pump'></i><?=$value['descricao']?></div>
                 <div class="card_body">
-                    1000
+                    <?=$value['fechamento']?>
                 </div>
 
             </div>
-
-            <div class="card">
-                <div class="card_title">Bico 2</div>
-                <div class="card_body">
-                    1000
-                </div>
-
-            </div>
-
-            <div class="card">
-                <div class="card_title">Bico 3</div>
-                <div class="card_body">
-                    1000
-                </div>
-
-            </div>
-
-            <div class="card">
-                <div class="card_title">Bico 4</div>
-                <div class="card_body">
-                    1000
-                </div>
-
-            </div>
-
-            <div class="card">
-                <div class="card_title">Bico 5</div>
-                <div class="card_body">
-                    1000
-                </div>
-
-            </div>     
+        <?php }?>
 
         </div>
     <hr>
